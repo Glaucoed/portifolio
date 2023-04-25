@@ -61,8 +61,8 @@
   }
 
   .animation {
-    font-size: 1.3rem;
-    margin: 0 10%;
+    font-size: 1.1rem;
+    margin: 0 5%;
   }
 
   .animation div {
@@ -72,10 +72,10 @@
   }
 
   .name {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .dev{
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
