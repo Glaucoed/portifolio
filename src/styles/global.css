@@ -1,0 +1,45 @@
+:root {
+  --blue-100: rgb(119, 141, 169);
+  --blue-300: rgb(65, 90, 119);
+  --blue-600: rgb(27, 38, 59);
+  --blue-900: rgb(13, 27, 42);
+
+  --bg-light: rgb(224, 225, 221);
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: roboto, sans-serif;
+  color: var(--blue-300);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2.0;
+
+}
+
+body {
+  background: var(--bg-light);
+}
+
+h1 {
+  padding: 2.1875rem 0;
+  color: var(--blue-600);
+  font-weight: 900;
+  
+} 
+
+@media(max-width: 34.375rem) {
+  h1 {
+    font-size: 1.3rem;
+  } 
+
+}

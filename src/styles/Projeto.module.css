@@ -1,0 +1,32 @@
+.containerProjects{
+  background-color: var(--blue-600);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.containerProjects h1 {
+  color: var(--blue-300)
+}
+.cardProjects{
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectImg{
+  width: 475px;
+  border-radius: 10px;
+}
+
+@media(max-width: 550px) {
+
+  .projectImg{
+    width: 250px;
+  }
+
+
+}

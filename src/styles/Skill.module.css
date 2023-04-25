@@ -1,0 +1,73 @@
+
+.containerHabilitys {
+  display: flex;
+  min-height: 31.25rem;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 6.25rem;
+
+}
+
+.containerSkills {
+  width: 90%;
+  gap: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.boxIcon {
+  width: 9.375rem;
+  color: var(--blue-300);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: var(--blue-900);
+  padding: .625rem;
+  border-bottom: .125rem solid var(--blue-300);
+  border-left: .125rem solid var(--blue-300);
+}
+
+.boxIcon:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  filter: drop-shadow(-0.0313rem -0.0313rem .0625rem #000);
+}
+
+.boxIcon span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--bg-light);
+  font-family: 'DM Sans', sans-serif;
+}
+
+.iconSkill {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+
+@media(max-width: 550px) {
+
+  .containerSkills {
+    justify-content: center;
+    width: 88%;
+  }
+
+  .boxIcon {
+    width: 5.8125rem;
+    height: 4.0625rem;
+    padding: .3125rem;
+  }
+
+  .boxIcon span {
+    font-size: 14.4px;
+  }
+  .iconSkill {
+    font-size: 36.8px;  
+    padding-bottom: 0;
+  }
+
+}

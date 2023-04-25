@@ -1,0 +1,81 @@
+.containerAvatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  width: 100%;
+  height: 25rem;
+  clip-path: polygon(100% 0, 100% 40%, 50% 100%, 0 40%, 0 0);
+  background: linear-gradient(180deg, var(--blue-900) 0%, var(--blue-100) 100%);
+}
+
+.avatar {
+  position: relative;
+  margin-top: -330px;
+  border: 1.25rem solid var(--bg-light);
+}
+
+
+.avatarImg {
+  max-width: 400px;
+}
+
+.animation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 26.25rem;
+  justify-content: center;
+  font-size: 2.3rem;
+  color: var(--blue-100);
+}
+
+.name {
+  color: var(--blue-300, 1);
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+.dev {
+  font-style: italic;
+  color: #828282;
+  font-size: 1.5rem;
+}
+
+
+@media(max-width: 34.375rem) {
+  .form {
+    height: 14rem;
+  }
+
+  .avatar {
+    margin-top: -160px;
+    border: 1rem solid var(--bg-light);
+  }
+
+  .avatarImg {
+    width: 9.5rem;
+  }
+
+  .animation {
+    font-size: 1.3rem;
+    margin: 0 10%;
+  }
+
+  .animation div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .name {
+    font-size: 1.3rem;
+  }
+
+  .dev{
+    font-size: 1rem;
+  }
+}
