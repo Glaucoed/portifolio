@@ -44,10 +44,51 @@
 .modalProjects p {
   max-width: 37.5rem;
   padding: .3125rem;
-  font-size: 17.6px;
+  font-size: 1.1rem;
   text-align: justify;
   text-indent: 1.5em;
   word-spacing: .2375rem;
+}
+
+.modalTec {
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.modalTec p{
+  color: var(--blue-600);
+  font-weight: 600;
+}
+
+.modalLinks{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.modalLinks a{
+  text-decoration: none;
+  text-align: center;
+  width: 175px;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.modalLinks a:nth-child(odd){
+  background-color: var(--blue-100);
+  color: var(--blue-600);
+  font-weight: 600;
+}
+
+.modalLinks a:nth-child(even){
+  color: var(--blue-100);
+  font-weight: 600;
+  background-color: var(--blue-600);
 }
 
 .modalBtn{

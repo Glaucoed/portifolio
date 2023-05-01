@@ -18,14 +18,20 @@ export default function ModalProjects({ isOpen, onClose, name, descricao, reposi
       <img src={img} alt={name} className={style.projectImgModal} />
         <h2>{name}</h2>
         <p>{descricao}</p>
-      <div> Tecnologias:
+      <div className={style.modalTec}> 
+        <p>Tecnologias:</p>
         {tecnologias.map((tec) => (
           <span key={tec}>{tec}</span>
         ))}
       </div>
-      <a href={repositorio}>
-        <div>Acessar Repositorio</div>
-      </a>
+      <div className={style.modalLinks}>
+        <a href={repositorio}>
+          <div>Acessar Repositorio</div>
+        </a>
+        <a href={repositorio}>
+          <div>Acessar Página</div>
+        </a>
+      </div>
     </Modal>
   );
 }
