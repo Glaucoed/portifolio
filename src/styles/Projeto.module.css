@@ -105,10 +105,54 @@
 
 
 @media(max-width: 34.375rem) {
-
-  .projectImg{
-    width: 15.625rem;
+  .modalProjects{
+    height: 90%;
+    width: 90%;
+    overflow: auto;
+  }
+  .modalProjects h2{
+    font-size: 1.2rem;
+    padding: 10px 0 ;
   }
 
+  .projectImg{
+    width: 250px;
+  }
+  .projectImgModal{
+    border-bottom: 10px;
+    padding-top: 10px;
+    width: auto;
+  }
+  .modalBtn{
+    top: 0.5%;
+    left: 90%;    
+  }
+  .btnCloseModalIcon{
+    font-size: 22px;
+
+  }
+  .modalProjects p {
+    line-height: 1.6rem;
+    padding: .3125rem;
+    font-size: 1.1rem;
+    text-align: justify;
+    text-indent: 0.8rem;
+
+  }
+
+  .modalTec{
+    flex-direction: column;
+  }
+  .modalLinks{
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .modalLinks a div{
+    font-size: 0.8rem;
+  }
 
 }
