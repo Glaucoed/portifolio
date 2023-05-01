@@ -37,6 +37,13 @@ h1 {
   
 } 
 
+h2 {
+  text-align: center;
+  padding: 1.5625rem 0;
+  color: var(--blue-600);
+  font-weight: 900;
+}
+
 @media(max-width: 34.375rem) {
   h1 {
     font-size: 1.3rem;

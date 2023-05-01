@@ -1,6 +1,6 @@
 .containerProjects{
   background-color: var(--blue-600);
-  padding: 20px;
+  padding: 1.25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,20 +12,61 @@
 }
 .cardProjects{
   display: flex;
-  gap: 2rem;
+  gap: 32px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .projectImg{
-  width: 475px;
-  border-radius: 10px;
+  width: 29.6875rem;
+  border-radius: .625rem;
 }
 
-@media(max-width: 550px) {
+.projectImgModal{
+  width: 37.5rem;
+  border-radius: .625rem;
+}
+
+.modalProjects {
+  display: flex;
+  flex-direction: column;
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(255, 255, 255); 
+  border-radius: .9375rem; 
+  outline: none; 
+  padding: 1.25rem;
+  
+}
+
+.modalProjects p {
+  max-width: 37.5rem;
+  padding: .3125rem;
+  font-size: 17.6px;
+  text-align: justify;
+  text-indent: 1.5em;
+  word-spacing: .2375rem;
+}
+
+.modalBtn{
+  position: absolute;
+  top: 4%;
+  left: 91%;
+  
+}
+
+.btnCloseModalIcon{
+  font-size: 1.875rem;
+  color: var(--blue-600);
+}
+
+
+@media(max-width: 34.375rem) {
 
   .projectImg{
-    width: 250px;
+    width: 15.625rem;
   }
 
 
