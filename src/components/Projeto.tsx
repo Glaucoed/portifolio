@@ -33,7 +33,7 @@ export default function Projeto() {
   }
 
   return (
-    <div>
+    <div id="projetos">
       <section className={style.containerProjects}>
         <h1>Projetos</h1>
         <div className={style.cardProjects}>

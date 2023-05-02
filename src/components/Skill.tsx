@@ -25,7 +25,7 @@ import {
 
 export default function Skill() {
   return (
-    <section className={style.containerHabilitys}>
+    <section className={style.containerHabilitys} id="habilidades">
     <h1>Habilidades</h1>
     <div className={style.containerSkills}>
 

@@ -5,10 +5,12 @@ import Sobre from './components/Sobre.tsx';
 import Skill from './components/Skill.tsx';
 import Projeto from './components/Projeto.tsx';
 import Footer from './components/Footer.tsx';
+import Nav from './components/Nav.tsx';
 
 function App() {
   return (
-    <main>
+    <main id="main">
+      <Nav />
       <Avatar />
       <Sobre />
       <Skill />
