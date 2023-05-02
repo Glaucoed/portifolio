@@ -7,9 +7,11 @@
   
 }
 
+
 .containerProjects h1 {
   color: var(--blue-300)
 }
+
 .cardProjects{
   display: flex;
   gap: 32px;
@@ -23,7 +25,8 @@
 }
 
 .projectImgModal{
-  width: 37.5rem;
+  width: 20.5rem;
+  margin: 0 auto;
   border-radius: .625rem;
 }
 
@@ -31,7 +34,7 @@
   display: flex;
   flex-direction: column;
   position: absolute; 
-  top: 50%;
+  top: 53%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: rgb(255, 255, 255); 
@@ -39,12 +42,13 @@
   outline: none; 
   padding: 1.25rem;
   
+  
 }
 
 .modalProjects p {
   max-width: 37.5rem;
   padding: .3125rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-align: justify;
   text-indent: 1.5em;
   word-spacing: .2375rem;
@@ -56,7 +60,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
 }
 
 .modalTec p{
@@ -93,7 +96,7 @@
 
 .modalBtn{
   position: absolute;
-  top: 3%;
+  top: 1%;
   left: 91%;
   
 }
@@ -118,11 +121,13 @@
   .projectImg{
     width: 250px;
   }
+
+
   .projectImgModal{
     border-bottom: 10px;
     padding-top: 10px;
     width: auto;
-    max-height: 221px;
+    max-height: 175px;
   }
   .modalBtn{
     top: 0.5%;

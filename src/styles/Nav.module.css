@@ -17,15 +17,11 @@
 .header div:nth-child(2){
   display: flex;
   justify-content: center
-
-
 }
 
 .header div:nth-child(3){
   display: flex;
-  justify-content: flex-end
-
-
+  justify-content: flex-end;
 }
 
 
